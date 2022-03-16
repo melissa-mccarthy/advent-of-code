@@ -4,3 +4,4 @@ flake8==4.0.1
 bandit==1.7.4
 seed-isort-config==v2.2.0
 isort==5.10.1
+pytest==7.1.0

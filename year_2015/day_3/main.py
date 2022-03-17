@@ -14,7 +14,7 @@ def count_houses_visited(directions: str, num_deliverers: int) -> int:
 
 
 if __name__ == "__main__":
-    with open("year_2015/day_3/input.txt", "r") as f:
+    with open("./input.txt", "r") as f:
         puzzle_input = f.readlines()[0]
     year_1_houses_visited = count_houses_visited(puzzle_input, 1)
     print(f"{year_1_houses_visited} houses visited first year")

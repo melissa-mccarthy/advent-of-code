@@ -24,7 +24,7 @@ def new_rules_is_nice(s: str) -> bool:
 if __name__ == "__main__":
     old_rules_nice_count = 0
     new_rules_nice_count = 0
-    with open("year_2015/day_5/input.txt", "r") as f:
+    with open("./input.txt", "r") as f:
         for line in f.readlines():
             if old_rules_is_nice(line):
                 old_rules_nice_count += 1

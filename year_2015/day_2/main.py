@@ -19,7 +19,7 @@ def calculate_ribbon_ft(dimensions: str) -> int:
 if __name__ == "__main__":
     wrapping_paper_sq_ft = 0
     ribbon_ft = 0
-    with open("year_2015/day_2/input.txt", "r") as f:
+    with open("./input.txt", "r") as f:
         for line in f.readlines():
             dimensions_ = line.strip()
             wrapping_paper_sq_ft += calculate_wrapping_paper_sq_ft(dimensions_)

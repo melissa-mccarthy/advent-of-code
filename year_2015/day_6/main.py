@@ -46,7 +46,7 @@ def update_grid(
 if __name__ == "__main__":
     on_off_current = [[False] * 1000 for _ in range(1000)]
     brightness_current = [[0] * 1000 for _ in range(1000)]
-    with open("year_2015/day_6/input.txt", "r") as f:
+    with open("./input.txt", "r") as f:
         for line in f.readlines():
             on_off_current = update_grid(
                 get_coordinates(line), update_on_off(line), on_off_current

@@ -15,7 +15,7 @@ def calculate_moves_to_floor(directions: str, floor: int) -> int:
 
 
 if __name__ == "__main__":
-    with open("year_2015/day_1/input.txt", "r") as f:
+    with open("./input.txt", "r") as f:
         puzzle_input = f.readlines()[0]
 
     print(f"Final Floor: {calculate_final_floor(puzzle_input)}")
